@@ -97,16 +97,6 @@ const typeDefs = gql`
 			video2: String
 			video3: String
 		): Dramas
-
-		# user mutation
-		register(
-			username: String!
-			userId: String!
-			password: String!
-			email: String!
-		): Boolean!
-		login(userId: String!, password: String!): User
-		logout(userId: String!): Boolean!
 	}
 `;
 
